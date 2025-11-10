@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>Get Our App</title></head>
+<body>
+  <script>
+    const ua = navigator.userAgent.toLowerCase();
+    if (/android/.test(ua)) {
+      window.location.href = "https://play.google.com/store/apps/details?id=com.mgs.encoreus&pli=1";
+    } else if (/iphone|ipad|ipod/.test(ua)) {
+      window.location.href = "https://apps.apple.com/us/app/encore-online/id6652313770";
+    } else {
+      window.location.href = "https://www.encoreonline.us/";
+    }
+  </script>
+</body>
+</html>
